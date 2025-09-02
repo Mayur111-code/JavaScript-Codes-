@@ -179,12 +179,25 @@ console.log(10/"10");
 
 console.log(100/"ABC"); //NaN
 
+console.log("*****************************");
+
+//concat data 
 
 
+let Name = 'mayur';
+let Skill = "react js ";
 
+document.write("your name is " + Name);
+document.write("<br>")
+document.write( "your skill is " + Skill + "<br>")
 
+document.write("your name is " + Name +  " your skill is " + Skill)
 
-
+//this is the concate methode 
+document.write("<h1> your Name is " + Name + "</h1>");
+//this is template literal methode
+document.write(`<h1>your name is ${Name} **using template literal backtick </h1>`)
+document.write(`<h2>your skill is ${Skill}  **using template literal backtick</h2> `);
 
 
 
